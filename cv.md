@@ -16,7 +16,7 @@
 
 
 ## About Me
-**For now...**
+**For now... **
 For now I'm on way to change my life and professional direction
 My goal: work&travel. I want to earn money remotely and visit as many countries as possible with my wife
 IT world is the most suitable for achieving my goal and my learning ability is my reliable tool for sure
