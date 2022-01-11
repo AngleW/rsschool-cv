@@ -1,0 +1,218 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+@media (max-width: 768px) {
+  .section {
+    width: 100%;
+  }
+  .footer-copyright {
+    flex: 0 0 25%;
+  }
+  .footer-github {
+    flex: 0 0 25%;
+    text-align: center;
+  }
+  .footer-img {
+    flex: 0 0 25%;
+    text-align: center;
+  }
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+    background-color: #f5f7fa;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .header {
+    background-color: white;
+  }
+  .contact-block {
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+    text-align: left;
+    line-height: 1.6rem;
+    padding-bottom: 1.8rem;
+  }
+  .contact-list {
+    text-decoration: none;
+    list-style: none;
+  }
+  .contacts-link {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    color: grey;
+    text-decoration: none;
+  }
+  .skills-block {
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    text-align: left;
+    line-height: 1.6rem;
+    padding-bottom: 1.8rem;
+  }
+  .skills-list {
+    text-decoration: none;
+    list-style: none;
+  }
+  .code-block {
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    text-align: left;
+    line-height: 1.6rem;
+    padding-bottom: 1.8rem;
+  }
+  .courses-block {
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    text-align: left;
+    line-height: 1.6rem;
+    padding-bottom: 1.8rem;
+  }
+  .courses-list {
+    text-decoration: none;
+  }
+  .projects-block {
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    text-align: left;
+    line-height: 1.6rem;
+    padding-bottom: 1.8rem;
+  }
+  .projects-link {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    color: grey;
+    text-decoration: none;
+  }
+  .education {
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    white-space: pre-line;
+    text-align: left;
+    line-height: 1.6rem;
+    padding-bottom: 1.8rem;
+  }
+  .english {
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    text-align: left;
+    line-height: 1.6rem;
+    padding-bottom: 1.8rem;
+  }
+  .english-link {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    color: grey;
+    text-decoration: none;
+  }
+  .main-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .section {
+    width: 60%;
+  }
+  
+  .summary {
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    white-space: pre-line;
+    text-align: left;
+    line-height: 1.6rem;
+    padding-bottom: 1.8rem;
+  }
+  
+  .container {
+    max-width: 1440px;
+    margin: 0 auto;
+  }
+  .nav-list {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    list-style: none;
+  }
+  .nav-link {
+    padding: 0 20px;
+    line-height: 50px;
+    font-size: 14px;
+    font-weight: 400;
+    color: grey;
+    text-decoration: none;
+  }
+  .section-item a {
+    color: royalblue;
+    text-decoration: none;  
+    transition: color 0.5s;
+  }
+  .section-item a:hover {
+    color: #4d2323;
+  }
+  .main-title {
+    margin-top: 11px;
+    font-size: 33px;
+    line-height: 111%;
+    font-weight: 400;
+    letter-spacing: 10px;
+    color: #4d2323;
+  }
+  .main-title::before {
+    content: "";
+    position: absolute;
+    top: 8px;
+    left: 0px;
+    width: 10px;
+    height: 10px; 
+    border: 1px solid #829985;
+    border-radius: 50%;
+  }
+  .section-title {
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: 7px;
+    color: #4d2323;
+  }
+
+  .footer {
+    background-color: white;
+    padding: 1.5rem 0;
+  }
+  .footer-body {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
+  .footer-github {
+    vertical-align: bottom;
+  }
+  
+  .footer-copyright {
+    flex: 0 1 100%;
+    text-align: center;
+  }
+  .footer-img img {
+    width: clamp(60px, calc(80 / 1200 * 100vw), 80px);
+  }
+  .footer-link {
+    padding: 0 20px;
+    line-height: 50px;
+    font-size: 14px;
+    font-weight: 400;
+    color: grey;
+    text-decoration: none;
+  }
