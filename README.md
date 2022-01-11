@@ -1,2 +1,1 @@
-# rsschool-cv
-rsschool-cv
+https://AngleW.github.io/rsschool-cv/
